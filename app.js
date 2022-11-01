@@ -12,6 +12,6 @@ router.get('/', (req, res)=>{
 
 app.use('/', router);
 
-app.listen(process.env.port || 8080);
+app.listen(process.env.port || 8000);
 
-console.log('Running at port 8080');
+console.log('Running at port 8000');
